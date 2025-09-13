@@ -1,2 +1,2 @@
 # etw
-Bypass ETW writing a RET function in NtTraceEvent, NT APIs only.
+Bypass ETW writing a RET instruction in NtTraceEvent, NT APIs only.
