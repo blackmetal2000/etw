@@ -5,7 +5,6 @@ namespace SharpDiabellstar
 {
     class Program
     {
-
         private static IntPtr GetProcAddress(IntPtr ntdllAddress)
         {
             var getprocStatus = Win32.LdrGetProcedureAddress(
@@ -106,4 +105,5 @@ namespace SharpDiabellstar
             Console.WriteLine("[^] Enjoy!");
         }
     }
+
 }
